@@ -2,13 +2,13 @@
 #Tools	Visual Studio Code
 https://code.visualstudio.com/
 
-#extends	[VS Code - Debugger for Chrome
+#extends	VS Code - Debugger for Chrome
 https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome
 
 #vim
 https://marketplace.visualstudio.com/items?itemName=vscodevim.vim
 
-# Eslint - Dirk Baeumer
+#Eslint - Dirk Baeumer
 https://github.com/Microsoft/vscode-eslint
 
 #SonarLint
