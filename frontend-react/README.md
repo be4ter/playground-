@@ -27,13 +27,16 @@ https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native
 3. Create-React-App 설치 https://www.npmjs.com/package/create-react-app
 
 [프로젝트 초기화]
-1) 프로젝트 폴더 생성
+
+1)프로젝트 폴더 생성
+
 mkdir 프로젝트명
 
-2) 앱 만들기
+2)앱 만들기
+
 create-react-app <앱>
 
-3) yarn으로 local 형태로 모듈 설치 
+3)yarn으로 local 형태로 모듈 설치 
 
 #react-router-dom https://www.npmjs.com/package/react-router-dom
 >yarn add react-router-dom --save-dev
