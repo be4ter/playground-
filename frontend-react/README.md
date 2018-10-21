@@ -34,12 +34,16 @@ mkdir 프로젝트명
 create-react-app <앱>
 
 3) yarn으로 local 형태로 모듈 설치 
+
 #react-router-dom https://www.npmjs.com/package/react-router-dom
 >yarn add react-router-dom --save-dev
+
 #cross-env  https://www.npmjs.com/package/cross-env
 >yarn add cross-env --save-dev
+
 #query-string https://www.npmjs.com/package/query-string
 > yarn add query-string --save-dev
 
 4)bootstrap 적용
+
 reactstrap  : https://reactstrap.github.io/
