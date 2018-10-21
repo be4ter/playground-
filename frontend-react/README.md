@@ -1,4 +1,5 @@
 [개발환경]
+
 #Tools	Visual Studio Code
 https://code.visualstudio.com/
 
@@ -27,7 +28,7 @@ https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native
 
 [프로젝트 초기화]
 1) 프로젝트 폴더 생성
-mkdir
+mkdir 프로젝트명
 
 2) 앱 만들기
 create-react-app <앱>
