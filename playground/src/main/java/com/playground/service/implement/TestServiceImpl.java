@@ -10,7 +10,7 @@ import java.util.List;
 
 @Service
 public class TestServiceImpl implements TestService {
-	@Autowired
+	@Autowired(required = true)
 	private TestDao testDao;
 
 	@Override
