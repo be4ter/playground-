@@ -3,7 +3,11 @@ package com.playground.model.dao;
 import com.playground.model.dto.Test;
 import org.apache.ibatis.annotations.Mapper;
 
+import java.util.List;
+
 @Mapper
 public interface TestDao {
-	Test getTest();
+	List<Test> getTest();
+
+	void setTest(String contents);
 }

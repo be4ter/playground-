@@ -4,6 +4,15 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.playground.model.dao.TestDao">
     <select id="getTest" resultType="Test">
-          SELECT * FROM T_TEST
+        <![CDATA[
+
+                  SELECT * FROM T_TEST
+
+        ]]>
     </select>
+
+    <insert id="setTest" parameterType="String" >
+        insert into T_TEST(contents)
+        values(#{contents})
+    </insert>
 </mapper>
