@@ -11,9 +11,9 @@
 ### db와 잘 연결됬는지 확인 하는 방법
 - postman으로 get 요청
 
- get : http://ec2-13-209-88-209.ap-northeast-2.compute.amazonaws.com:8080/playground-0.0.1-SNAPSHOT/test/test2
+ get : http://ec2-13-209-88-209.ap-northeast-2.compute.amazonaws.com:8080/playground-0.0.1-SNAPSHOT/test
 
- post : http://ec2-13-209-88-209.ap-northeast-2.compute.amazonaws.com:8080/playground-0.0.1-SNAPSHOT/test
+ post : http://ec2-13-209-88-209.ap-northeast-2.compute.amazonaws.com:8080/playground-0.0.1-SNAPSHOT/test/{contents}
  
 ### 배포하는 법
 
