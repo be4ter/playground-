@@ -1,4 +1,4 @@
-package com.playground.contorller;
+package com.playground.controller;
 
 import com.playground.model.dto.Test;
 import com.playground.service.TestService;
@@ -13,12 +13,12 @@ public class ApiTestController {
 	@Autowired
 	private TestService testService;
 
-	@PostMapping("")
+	@GetMapping("")
 	public List<Test> test() {
 		return testService.getTest();
 	}
 
-	@GetMapping("/{contents}")
+	@PostMapping("/{contents}")
 	public void test(@PathVariable String contents) {
 		testService.insert(contents);
 	}
