@@ -1,4 +1,4 @@
-package com.playground.controller;
+package com.playground.controller.api;
 
 import com.playground.model.dto.Test;
 import com.playground.service.TestService;

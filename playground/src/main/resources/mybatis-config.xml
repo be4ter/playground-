@@ -6,9 +6,9 @@
         <setting name="defaultExecutorType" value="REUSE"/>
         <setting name="aggressiveLazyLoading" value="false"/>
     </settings>
-
     <typeAliases>
         <typeAlias alias="Test" type="com.playground.model.dto.Test"></typeAlias>
+        <typeAlias alias="User" type="com.playground.model.dto.User"></typeAlias>
     </typeAliases>
 
     <typeHandlers>
